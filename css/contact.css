@@ -1,0 +1,31 @@
+#contact-form {
+    height:665px;
+}
+
+#contact-form iframe {
+    width: 35%;
+    float: left;
+}
+
+#about {
+    float:right;
+    width: 60%;
+}
+
+.image {
+    position: relative;
+    top: 10px;
+    left: 250px;
+    content: url("../img/about-me.jpg");
+    width:100px;
+}
+
+
+#map {
+    padding-top: 40px;
+    width:300px;
+    height:300px;
+    clear:right;
+    position: relative;
+    left: 200px;
+}
