@@ -6,7 +6,8 @@
     margin-top: 10px;
     width: 35%;
     float: left;
-    overflow: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 .under-contact {
