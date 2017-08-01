@@ -3,12 +3,14 @@ aside {
     width: 30%;
     position: fixed;
     /*left: -15px;*/
-    top: 220px;
+    top: 160px;
 }
 
 .blog {
     float: right;
     width:88%;
+    border-radius: 5px;
+    border: 1px solid #000;
 }
 
 
@@ -20,7 +22,7 @@ aside {
 #blog-links li {
     text-align: center;
     border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 20px 10px;
     background-color: #8b8687;
     width: 100px;
     padding: 1%;

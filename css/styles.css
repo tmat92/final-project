@@ -150,7 +150,7 @@ footer {
 
 #social-media {
     float: right;
-    margin: 1%;
+    margin: 10px;
 }
 
 .fa {
@@ -189,6 +189,8 @@ https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background *
 #copyright {
     margin: 0;
     clear: both;
+    font-size: 20px;
+    color: #e40007;
 }
 
 
