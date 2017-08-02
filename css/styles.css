@@ -15,8 +15,11 @@ ul {
     list-style-type: none;
 }
 
-h1,h2,h3,h4,h5,h6, li {
+h1 {
     font-family: 'Sriracha', cursive;
+}
+h2,h3,h4,h5,h6, li {
+    font-family: 'Oswald';
 }
 
 p {
@@ -54,7 +57,7 @@ nav ul {
 nav ul li{
     display:inline-block;
     font-size:24px;
-    border-radius: 20px 10px;
+    border-radius: 20px;
 }
 
 /*.left {
@@ -133,7 +136,8 @@ nav ul li{
 
 #column p {
     height:380px;
-    overflow: scroll;
+    overflow-y: scroll;
+    
 }
 
 /* footer styles */

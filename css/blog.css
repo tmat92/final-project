@@ -1,16 +1,52 @@
+#header-text {
+    background-color:#8b8687;
+    position: fixed;
+    left: 180px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 150px;
+}
+
 aside {
     float:left;
     width: 30%;
     position: fixed;
-    /*left: -15px;*/
-    top: 160px;
+    left: 45px;
+    top: 300px;
 }
 
-.blog {
-    float: right;
-    width:88%;
-    border-radius: 5px;
-    border: 1px solid #000;
+#jan {
+    position: relative;
+    top: 22px;
+}
+
+#more {
+    position: relative;
+    top: 19px;
+}
+
+
+/* button styling */
+
+.button-blog {
+    border-radius: 100%;
+    background-color: #8b8687;
+    padding: 1%;
+    font-size: 1em;
+    font-family: 'Oswald';
+}
+
+#right{
+    position: relative;
+    left: -65px;
+    top: 40px;
+}
+
+#left {
+    position: relative;
+    right: -99px;
+    bottom: 40px;
 }
 
 
@@ -22,7 +58,7 @@ aside {
 #blog-links li {
     text-align: center;
     border: 2px solid #000;
-    border-radius: 20px 10px;
+    border-radius: 20px;
     background-color: #8b8687;
     width: 100px;
     padding: 1%;
@@ -43,4 +79,13 @@ aside {
 #blog-links li:active {
     color: #000;
     background-color:#8b8687;
+}
+
+#column {
+    float: right;
+    width:70%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    /*height: 200px;*/
+    /*overflow-x: auto;*/
 }
