@@ -184,8 +184,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
 
 .fa-pinterest {
-    border-radius: 100%;
- /*ugh im trying to shrink the white background*/
+    border-radius: 100%; /*trying to get the background smaller than the text*/
     background-color: #fff;
     color: #cb2027;
 }
@@ -195,6 +194,7 @@ https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background *
     clear: both;
     font-size: 20px;
     color: #e40007;
+    font-weight: 600;
 }
 
 
