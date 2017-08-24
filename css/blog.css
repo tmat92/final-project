@@ -8,6 +8,8 @@
     width: 150px;
 }
 
+/* aside tag styles*/
+
 aside {
     float:left;
     width: 30%;
@@ -49,6 +51,7 @@ aside {
     bottom: 40px;
 }
 
+/*blog links styles*/
 
 #blog-links>a {
     color: #ff00ff;
